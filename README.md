@@ -1,1 +1,238 @@
+\# Sales Data Analysis Project
+
+
+
+\## 1. Project Overview
+
+
+
+This project involves the cleaning, exploration, and analysis of a sales dataset containing 1,200 records. The aim was to identify sales trends, evaluate product performance, understand customer payment preferences, and assess order and delivery performance.
+
+
+
+The dataset was provided as part of an internship programme.
+
+
+
+\## 2. Project Objectives
+
+
+
+\- Clean and prepare the dataset for analysis.
+
+\- Explore sales trends and patterns.
+
+\- Identify top-performing products.
+
+\- Analyse payment methods and order statuses.
+
+\- Investigate order cancellations and delivery performance.
+
+\- Generate insights and recommendations to support business decisions.
+
+
+
+\## 3. Dataset Description
+
+
+
+The dataset contains 1,200 rows and 14 columns:
+
+
+
+\- Order ID
+
+\- Date
+
+\- Customer ID
+
+\- Product
+
+\- Quantity
+
+\- Shipping Address
+
+\- Payment Method
+
+\- Order Status
+
+\- Items in Cart
+
+\- Coupon Code
+
+\- Referral Source
+
+\- Unit Price
+
+\- Total Price
+
+\- Tracking Number
+
+
+
+\## 4. Tools Used
+
+
+
+\- \*\*Microsoft Excel:\*\* Data cleaning, organisation, PivotTables, and exploratory data analysis.
+
+\- \*\*Python (Jupyter Notebook):\*\* Data exploration and analysis.
+
+\- \*\*MySQL Workbench:\*\* SQL queries and further analysis.
+
+
+
+
+
+\## 5. Exploratory Data Analysis (EDA)
+
+
+
+Exploratory Data Analysis was carried out using Microsoft Excel and Python to understand the dataset, identify patterns, and examine sales performance.
+
+
+
+\### Excel Analysis
+
+\- Inspected the dataset to understand its structure and identify data quality issues.
+
+\- Identified and handled missing values.
+
+\- Checked for duplicate records and inconsistencies.
+
+\- Recalculated total prices using quantity multiplied by unit price.
+
+\- Used PivotTables to summarise sales performance by product.
+
+\- Compared total revenue, quantity sold, and average revenue across products.
+
+
+
+\### Python Analysis
+
+\- Imported the dataset into Jupyter Notebook.
+
+\- Explored the dataset structure and data types.
+
+\- Examined summary statistics and sales patterns.
+
+\- Used Python for further exploration and validation of findings from Excel.
+
+
+
+\## 6. SQL Techniques Applied
+
+
+
+The following SQL concepts and techniques were used:
+
+
+
+\- SELECT, DISTINCT, and WHERE
+
+\- AND and ORDER BY
+
+\- GROUP BY and LIMIT
+
+\- Aggregate functions: COUNT(), SUM(), and AVG()
+
+\- ROUND() and CASE WHEN
+
+\- Subqueries
+
+
+
+\## 7. Key Findings
+
+
+
+\### Product Performance
+
+\- Chair generated the highest total revenue.
+
+\- Chair also had the highest average order value.
+
+\- Printer recorded the highest number of orders.
+
+
+
+\### Payment Method Analysis
+
+\- Online payment was the most frequently used payment method by order count.
+
+\- Credit card payments generated the highest revenue.
+
+
+
+\### Order Status and Cancellation Analysis
+
+\- Cancelled orders accounted for 20.83% of all orders.
+
+\- Chair had the highest cancellation count and cancellation rate among products.
+
+\- Credit card had the highest cancellation count and cancellation rate among payment methods.
+
+
+
+\### Referral Source Analysis
+
+\- Instagram recorded the highest overall order count, total revenue, and average order value.
+
+
+
+\### Delivery Performance
+
+\- Email referrals recorded the highest number of delivered orders and the highest delivered revenue.
+
+\- Email had a delivery rate of 24.00% within its own referral-source orders.
+
+
+
+\## 8. Business Insights and Recommendations
+
+
+
+Based on the analysis, the following recommendations were identified:
+
+
+
+1\. \*\*Product management:\*\* Maintain adequate stock of chairs, given their strong revenue and average order value.
+
+2\. \*\*Demand monitoring:\*\* Investigate the high order volume for printers to understand customer demand and opportunities for growth.
+
+3\. \*\*Payment systems:\*\* Maintain reliable online payment options while continuing to support credit card transactions, which generated the highest revenue.
+
+4\. \*\*Cancellation management:\*\* Investigate the factors contributing to cancellations, particularly for chairs and credit card transactions.
+
+5\. \*\*Marketing strategy:\*\* Evaluate Instagram's strong sales performance and identify opportunities to sustain its contribution.
+
+6\. \*\*Delivery improvement:\*\* Further investigate delivery performance across referral sources to identify areas for improvement.
+
+
+
+\## 9. Conclusion
+
+
+
+This project provided practical experience in data cleaning, exploratory data analysis, and querying structured datasets using Excel, Python, and SQL.
+
+
+
+The analysis demonstrated how data can be used to identify business trends, evaluate performance, and generate actionable recommendations.
+
+
+
+It also strengthened my foundational skills in data analytics and my ability to communicate findings from data.
+
+
+
+\## 10. Project Files
+
+
+
+\- `Sales\_EDA.ipynb` – Python exploratory data analysis notebook.
+
+\- `SQL/sales\_data\_analysis.sql` – SQL queries used for sales data analysis.
+
+\- `README.md` – Project documentation.
 
